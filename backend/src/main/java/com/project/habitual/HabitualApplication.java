@@ -11,11 +11,10 @@ public class HabitualApplication {
 
   @RequestMapping("/")
   public String home() {
-    return "Hello Docker World";
+    return "Hello world!";
   }
 
 	public static void main(String[] args) {
 		SpringApplication.run(HabitualApplication.class, args);
 	}
-
 }
